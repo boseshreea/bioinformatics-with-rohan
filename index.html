@@ -18,6 +18,28 @@
 <body>
 
         <!--===============================HEADER===================================-->
+        <script>
+            /*==========MENU SHOW Y HIDDEN==========*/
+            const navMenu = document.getElementById('nav-menu'),
+                navToggle = document.getElementById('nav-toggle'),
+                navClose = document.getElementById('nav-close')
+
+            /*==========MENU SHOW==========*/
+            /*Validate if constant exists*/
+            if (navToggle) {
+                navToggle.addEventListener('click', () => {
+                    navMenu.classList.add('show-menu')
+                })
+            }
+                    /*==========REMOVE MENU MOBILE==========*/
+
+            /*==========ACCORDION SKILLS==========*/
+
+            /*==========QUALIFICATION TABS==========*/
+
+            /*==========SERVICES MODAL==========*/
+        </script>
+        
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">Bioinformatics with Rohan</a>
@@ -71,27 +93,4 @@
         </main>
         
     </body>
-
-    <script>
-        /*==========MENU SHOW Y HIDDEN==========*/
-        const navMenu = document.getElementById('nav-menu'),
-            navToggle = document.getElementById('nav-toggle'),
-            navClose = document.getElementById('nav-close')
-
-        /*==========MENU SHOW==========*/
-        /*Validate if constant exists*/
-        if (navToggle) {
-            navToggle.addEventListener('click', () => {
-                navMenu.classList.add('show-menu')
-            })
-        }
-            /*==========REMOVE MENU MOBILE==========*/
-
-        /*==========ACCORDION SKILLS==========*/
-
-        /*==========QUALIFICATION TABS==========*/
-
-        /*==========SERVICES MODAL==========*/
-    </script>
-
 </html>
